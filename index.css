@@ -1,0 +1,218 @@
+/* Fonts Inclusions */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Page Container */
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* Header Section CSS */
+
+header .nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+/* Header-Logo */
+header .nav-logo .header-default-logo{
+    display: block;
+}
+
+/* Nav-Items-Wrap */
+header .nav-bar-items-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header .nav-links li{
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+}
+
+header .nav-links li a{
+    display: inline-block;
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
+header .nav-links:first-child{
+    padding: 0px 30px;
+}
+/* Nav-links-Hover */
+/* header .nav-links-hover a:hover{
+    border-bottom: 2px solid black;
+} */
+
+header .call-us-back-btn{
+    color: rgba(255, 114, 115);
+}
+
+
+/* Main Section CSS */
+/* Banner Section */
+.banner-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+/* Banner Heading Section  */
+.banner-section{
+    /* background: rgb(232,236,251);
+    background: linear-gradient(75deg, rgba(232,236,251,1) 37%, rgba(255,255,255,1) 54%);  */
+    padding-top: 50px;
+}
+
+.banner-section::before{
+    content: '';
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    padding-top: 20px;
+    /* border-radius: 200px; */
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    background: linear-gradient(to left,rgba(238,240,253,255) 10%,rgba(255,255,255,1) 90%);
+    z-index: -1;
+}
+.banner-main-heading-container{
+    padding-top: 80px;
+}
+.banner-heading{
+    font-size: 4rem;
+    font-weight: 700;
+    max-width: 440px;
+    padding-bottom: 30px;
+    line-height: 1;
+}
+
+.banner-paragraph{
+    font-size: 1.25rem;
+    max-width: 400px;
+    font-weight: 300;
+
+}
+
+
+/* Banner Image Section */
+.banner-image-container{
+    /* background: url(./burger-design-template/bg.svg) no-repeat center/cover; */
+    position: relative;
+    padding-top: 30px;
+}
+
+.background-shape{
+    position: absolute;
+}
+.ketchup{
+    /* position: absolute; */
+    position: relative;
+    bottom: 0;
+    left: -60px;
+}
+
+
+/* Banner Summary Section  */
+
+.banner-summary-price{
+    padding-top: 70px;
+}
+
+.summary-heading{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.pricing{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: space-between;
+    padding: 30px 0px;
+    border-top: 2px solid rgba(238,240,253,255);
+
+}
+.burger-price{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgba(82,67,194,255);
+}
+.checkout-btn{
+    padding: 20px 40px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(82,67,194,255);
+}
+
+.time-calorie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(245,245,255,255);
+    padding: 10px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.time-text{
+    display: inline;
+}
+
+.free-production{
+    padding-top: 50px;
+}
+
+.free-production span{
+    color: #ff5c5f;
+}
+
+/* List of tooping Section Start */
+.list-of-toppings{
+    height: 300px;
+    background-color: rgba(80,65,192,255);
+}
+
+.toppings-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.item-1{
+    border-radius: 10px;
+    padding: 30px 20px;
+    border: 1px solid rgb(233, 230, 230);
+    background-color: #fff;
+}
+.btn-heading{
+    text-align: center;
+    align-items: center;
+}
+.increase-decrease-btn form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.increase-decrease-btn form input[type="submit"]{
+    text-decoration: none;
+}
+
+
+
+
